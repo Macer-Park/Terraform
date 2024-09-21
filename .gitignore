@@ -2,3 +2,9 @@
 .terraform.lock.hcl
 terraform.tfstate
 terraform.tfstate.backup
+s3/.terraform/*
+s3/.terraform.*
+iam/.terraform/*
+iam/.terraform.*
+iam/iam_user_policy/.terraform/*
+iam/iam_user_policy/.terraform.*

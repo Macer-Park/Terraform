@@ -152,3 +152,5 @@ resource "aws_route" "private_nat_2" {
   destination_cidr_block = "0.0.0.0/0"
   nat_gateway_id         = aws_nat_gateway.nat_gateway_2.id
 }
+
+
