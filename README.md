@@ -4,7 +4,6 @@ Welcome to the Terraform Exercise References Repository. This repository contain
 ## Table of Contents
 - [Repository Structure](#repository-structure)
 - [File Descriptions](#file-descriptions)
-- [Contributing](#contributing)
 - [License](#license)
 ### Prerequisites
 - Git
