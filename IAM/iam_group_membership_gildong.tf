@@ -1,4 +1,4 @@
-resource "aws_iam_group_membership" "macerpark" {
+resource "aws_iam_group_membership" "gildong" {
   name = aws_iam_group.macerpark-group.name
 
   users = [
