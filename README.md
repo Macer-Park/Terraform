@@ -13,6 +13,7 @@ The repository is organized as follows:
 - `/VPC`: VPC Auto Provisioning data.
 - `/S3`: S3 Auto Provisioning data.
 - `/IAM`: IAM Auto Provisioning data.
+- `/443_Redirection_set`: HTTP to HTTPS Redirection Auto Provisioning with Terraform Code Project References.
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
