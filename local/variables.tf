@@ -148,3 +148,15 @@
 #   default = "secret"
 #   sensitive = true
 # }
+
+variable "route53_credentials" {
+  sensitive   = true
+  type        = string
+  description = "HTTPS Credentials with AWS ALB"
+}
+
+variable "route_53_zone" {
+  sensitive   = true
+  type        = string
+  description = "Route 53 Domain for HTTPS Test"
+}

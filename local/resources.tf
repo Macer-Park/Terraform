@@ -79,3 +79,9 @@
 #     values = ["amzn2-ami-hvm-2.0.*-x86_64-gp2"]
 #   }
 # }
+
+# Data source to retrieve the existing Route 53 hosted zone for chungyun.net
+data "aws_route53_zone" "chungyun_net" {
+  name         = "chungyun.net."
+  private_zone = false
+}
